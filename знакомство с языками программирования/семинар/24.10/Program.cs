@@ -14,6 +14,7 @@ int getMaxDigitFromNumber(int number)
         {
             maxDigit = currentDigit;
         }
+        Console.WriteLine(number);
         number = number / 10;
     }
     return maxDigit;
